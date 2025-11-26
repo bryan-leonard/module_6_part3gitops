@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/bryan-leonard/module_6_part3-transactions:d9af23b41f9caa2e3ff93ed214d5042e35bdeea9
+          image: ghcr.io/bryan-leonard/module_6_part3-transactions:db625ef3aaecf213bf3f3892c55a5ba8591ffcb4
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
